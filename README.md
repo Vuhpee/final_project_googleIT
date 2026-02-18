@@ -28,25 +28,25 @@ Google IT Automation with Python final project implementing an end-to-end automa
 
 ## Repository Contents
 
-- `changeImage.py`  
+- `src/changeImage.py`  
   Converts `.tiff` images to `.jpeg`, resizes to **600×400**, and standardizes output format.
 
-- `supplier_image_upload.py`  
+- `src/supplier_image_upload.py`  
   Uploads processed `.jpeg` files to the server upload endpoint via HTTP requests.
 
-- `run.py`  
+- `src/run.py`  
   Reads product description files, extracts product attributes (including weight parsing), and POSTs JSON payloads to the catalog endpoint.
 
-- `reports.py`  
+- `src/reports.py`  
   Builds a PDF report (ReportLab) summarizing items for the daily/periodic report.
 
-- `report_email.py`  
+- `src/report_email.py`  
   Generates the PDF report and sends it via email as an attachment.
 
-- `emails.py`  
+- `src/emails.py`  
   Shared email helper utilities for composing and sending messages.
 
-- `health_check.py`  
+- `src/health_check.py`  
   Performs system health checks using threshold logic (CPU, disk, memory, DNS/hostname) and sends alert emails when issues are detected.
 
 ---
