@@ -55,8 +55,15 @@ Google IT Automation with Python final project implementing an end-to-end automa
 
 - Python automation and scripting
 - REST API interactions (POST, file upload)
-- Image processing pipelines
+- Image processing pipelines:
 - Structured data extraction and transformation
 - Automated reporting (PDF generation)
+
+## Highlights / Impact
+
+- Designed an end-to-end automation pipeline integrating image processing, API communication, reporting, and monitoring into a single workflow.
+- Reduced manual catalog maintenance by automating data ingestion, media handling, and structured JSON submissions.
+- Improved operational reliability by implementing proactive system health checks with automated email alerts.
+- Demonstrated practical DevOps-oriented automation skills including file transformation, REST integration, and monitoring logic.
 - Email automation (SMTP)
 - Basic monitoring/alerting and reliability checks
